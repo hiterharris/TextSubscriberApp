@@ -10,7 +10,7 @@ import {
   TextInput,
   TouchableOpacity,
 } from 'react-native';
-import {GiftedChat} from 'react-native-gifted-chat';
+import { GiftedChat } from 'react-native-gifted-chat';
 import { TabNavigator } from "react-navigation";
 import {
   Actions,
@@ -122,6 +122,10 @@ class Offers extends React.Component {
           <Offer source={require('./images/JCPenney_logo.png')} text="Text BUYNOW37 for an extra 30% off at Black Friday in July"/>
           <Offer source={require('./images/lyft.png')} text="Text NEWUSER10 for a $10 Total Ride Credit"/>
           <Offer source={require('./images/walgreens.png')} text="Text ALLPIC for 30% Off Everything Photo + Same Day Pickup"/>
+          <Offer source={require('./images/nike.jpg')} text="Text 20BTS for 20% Off full price styles when you spend $100+"/>
+          <Offer source={require('./images/hotels.jpg')} text="Text RMNJUL17 for Up to 50% + an extra 10% off"/>
+          <Offer source={require('./images/office.jpg')} text="Text 92128439 for 30% Off $30 Back-To-School Items"/>
+
           <Offer />
         </ScrollView>
       </View>
